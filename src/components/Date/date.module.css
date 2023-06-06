@@ -1,0 +1,36 @@
+.form {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.formGroup {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formGroup input {
+  padding: 5px;
+  width: 250px;
+}
+
+.duration {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.duration select {
+  padding: 5px;
+}

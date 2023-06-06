@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.react-datepicker-wrapper {
+  margin-left: auto;
+  width: 250px;
+}

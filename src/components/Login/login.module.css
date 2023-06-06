@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('./assets/fonts/Myriad-Pro-Regular.ttf') format('truetype'),
+        url('./assets/fonts/Myriad-Pro-Regular.woff') format('woff');
+}
+
+:root {
+  --green: #20B716;
+  --error: #EE2D6E;
+  --dark-error: #D9185F;
+  --blue: #4285F4;
+  --blue-hover: #1877F2;
+  --line: #E2E8F0;
+}
+
+img {
+  width: 100%;
+  height: 263px;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+}
+
+.box {
+  max-width: 577px;
+  width: 100%;
+  background: white;
+  height: 687px;
+  position: absolute;
+  left: 50%;
+  top: 81px;
+  transform: translate(-50%, 0);
+  border-radius: 6px;
+}
+
+.heading {
+  height: 58px;
+  box-shadow: 0px 3px 7px #00000029;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading img {
+  height: 50px;
+  width: 100px;
+}
+
+.form {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 386px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+}
+
+.loginTitle {
+  margin-top: 16px;
+  font-size: 29px;
+  color: var(--green);
+}
+
+.treeImg {
+  height: 128px;
+}
+
+.formGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  width: 100%;
+  font-size: 1rem;
+  color: var(--green);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--line);
+  padding: 5px;
+  padding-bottom: 9px;
+  height: 30px;
+  margin-bottom: 6px;
+}
+
+.password {
+  margin-top: -8px;
+}
+
+.input::placeholder {
+  color: var(--green);
+}
+
+.error {
+  font-family: 'Myriad Pro', sans-serif;
+  color: var(--error);
+  font-size: 13px;
+  align-self: center;
+  margin-left: 4px;
+}
+
+.btnSignin {
+  background-color: var(--green);
+  border: none;
+  outline: none;
+  font-size: 19px;
+  color: white;
+  padding: 15px;
+  border-radius: 40px;
+}
+
+.forgetPass {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -8px;
+}
+
+.forgetPass button {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.newUser {
+  color: var(--dark-error);
+}
+
+.or {
+  font-size: 1rem;
+  margin-top: -8px;
+  margin-bottom: 4px;
+}
+
+.btnLogo {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: var(--blue);
+  height: 46px;
+  cursor: pointer;
+}
+
+.btnLogo button {
+  margin: 0 auto;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.btnLogo:hover {
+  background-color: var(--blue-hover);
+}
+
+.linkLogo {
+  width: 36px;
+  height: 36px;
+}
